@@ -17,7 +17,7 @@ public class ResetPosition : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKey("r"))
+        if (Input.GetKeyDown("r"))
         {
             transform.position = startPos;
             print("Position resetted");
