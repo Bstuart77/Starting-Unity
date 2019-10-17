@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Jump : MonoBehaviour
-{
-
+{ 
     public bool onGround;
     private Rigidbody rb;
 
