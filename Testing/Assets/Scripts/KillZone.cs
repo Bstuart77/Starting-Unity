@@ -9,5 +9,6 @@ public class KillZone : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         player.transform.position = respawnPoint.transform.position;
+        print("Out Of Bounds - Position Resetted");
     }
 }
