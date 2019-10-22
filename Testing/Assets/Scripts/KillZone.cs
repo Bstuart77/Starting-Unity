@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class KillZone : MonoBehaviour {
+
     [SerializeField] private Transform player;
     [SerializeField] private Transform respawnPoint;
 
